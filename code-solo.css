@@ -2,17 +2,26 @@
 
 /* 3. Select the sample-1 class. Using the display property, apply a value of flex. Using the justify-content property, apply a value of flex-start. */
 
-
+.sample-1 {
+    display: flex;
+    justify-content: flex-start;
+}
 
 /* 4. Select the sample-2 class. Using the display property, apply a value of flex. Using the justify-content property, apply a value of space-between. */
 
-
+.sample-2 {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Add the styling for the spicy task below. */
 
-
-
-
+/* Styling for the spicy task */
+img.spicy-image {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
 
 /** Styling for the items of Sample 1 **/
 .item-1 {
